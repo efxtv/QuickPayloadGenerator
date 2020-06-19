@@ -19,6 +19,9 @@ Please read this before you run the bash file QuickPayloadGenerator.sh.
 4. Make sure Metasploit should be connected to the MSF database. Watch THIS video carefully if you face the error.
 5. Check if there is any program listening to port 4444 if the program exists, simply kill the process.
 6. To check for all the services running on port 4444 run command written below
+
 lsof -i:4444
+
 kill -9 <SID> 
+ 
 7. Now you are ready to run QuickPayloadGenerator.sh
