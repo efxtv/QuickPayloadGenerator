@@ -22,6 +22,6 @@ Please read this before you run the bash file QuickPayloadGenerator.sh.
 
 lsof -i:4444
 
-kill -9 <SID> 
+kill -9 SID
  
 7. Now you are ready to run QuickPayloadGenerator.sh
